@@ -209,6 +209,14 @@ vendor.gralloc.disable_ubwc=0
 debug.stagefright.ccodec=4
 debug.stagefright.omx_default_rank=0
 media.stagefright.thumbnail.prefer_hw_codecs=true
+ro.config.alarm_vol_default=5
+ro.config.alarm_vol_steps=7
+ro.config.media_vol_default=10
+ro.config.media_vol_steps=15
+ro.config.system_vol_default=5
+ro.config.system_vol_steps=7
+ro.config.vc_call_vol_default=5
+ro.config.vc_call_vol_steps=7
 
 # NFC
 ro.vendor.nfc.repair=1
