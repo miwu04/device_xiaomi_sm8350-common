@@ -227,8 +227,11 @@ ro.vendor.nfc.repair=1
 ro.vendor.se.type=eSE,HCE,UICC
 
 # Perf
+ro.vendor.perf-hal.ver=2.2
 ro.vendor.extension_library=libqti-perfd-client.so
-ro.vendor.perf.scroll_opt=true
+ro.vendor.perf.scroll_opt=0
+ro.vendor.qspm.enable=true
+vendor.power.pasr.enabled
 
 # Radio
 keyguard.no_require_sim=true
@@ -286,7 +289,7 @@ vendor.usb.use_gadget_hal=0
 # Wifi
 wifi.aware.interface=wifi-aware0
 
-persist.vendor.console.silent.config=1 
+persist.vendor.console.silent.config=1
 
 # Zygote
 zygote.critical_window.minute=10
