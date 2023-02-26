@@ -507,6 +507,14 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/xiaomi
 
+# HALS
+SRC_MEDIA_HAL_DIR := hardware/qcom-caf/sm8350-common/media
+SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/sm8350-common/display
+SRC_AUDIO_HAL_DIR := hardware/qcom-caf/sm8350-common/audio
+PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/sm8350-common/display
+PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/sm8350-common/audio
+PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/sm8350-common/media
+
 # Telephony
 PRODUCT_PACKAGES += \
     extphonelib \
